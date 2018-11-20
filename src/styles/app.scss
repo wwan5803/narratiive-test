@@ -1,0 +1,9 @@
+@import 'variable.scss';
+h1 {
+    color: $main-color;
+    text-align: center;
+}
+.container{
+    display: flex;
+    padding: 80px 50px 30px 50px;
+}

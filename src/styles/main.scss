@@ -1,0 +1,12 @@
+@import 'variable';
+
+.left-section{
+  //background: $main-color;
+  width: 60%;
+  border-right:4px dashed $dashed-border-color;
+}
+
+.right-section{
+  width: 40%;
+  padding-left: 50px;
+}
