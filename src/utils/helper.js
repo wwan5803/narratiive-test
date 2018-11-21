@@ -16,7 +16,7 @@ export const normaliseData = () => {
         key += `${a.key}-`;
         a.options.forEach(b=>{
             path = `Filter/${a.name}/`;
-            path += `${b.name}/`;
+            path += `${b.name}`;
             key = `${a.key}/`;
             key += `${b.key}-`;
             b.options.forEach(c=>{
